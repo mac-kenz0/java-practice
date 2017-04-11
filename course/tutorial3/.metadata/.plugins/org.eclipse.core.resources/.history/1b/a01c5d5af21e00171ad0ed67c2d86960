@@ -1,0 +1,7 @@
+package tutorial28;
+
+public class Person {
+public void greet(){
+	System.out.println('hello there');
+}
+}

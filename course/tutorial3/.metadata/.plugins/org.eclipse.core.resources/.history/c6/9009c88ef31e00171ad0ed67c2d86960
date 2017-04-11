@@ -1,0 +1,9 @@
+package tutorial28;
+
+
+public class Machine implements Info{
+
+public void start(){
+	System.out.println("start");
+}
+}

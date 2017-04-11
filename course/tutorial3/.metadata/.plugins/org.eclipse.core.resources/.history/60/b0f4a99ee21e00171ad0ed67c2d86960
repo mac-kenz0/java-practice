@@ -1,0 +1,25 @@
+package tutorial21;
+class Frog {
+	String name;
+	int age;
+	
+	public String getName() {
+		return name;
+	}
+	public int getAge(){
+		return age;
+	}
+}
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Frog frog = new Frog();
+		
+		frog.name = "Jeffery";
+		frog.age = 27;
+		
+		System.out.println(frog.getName());
+	}
+
+}

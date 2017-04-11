@@ -1,0 +1,36 @@
+package tutorial22;
+
+class Machine{
+	private String name;
+	private int code;
+	/* the name of your constructor has to be the same as your class*/
+	public Machine() {
+		name = "Ann";
+		System.out.println(name);
+		System.out.println();
+	}
+	public Machine (String name){
+		this.name = name;
+		System.out.println("second constructor running :)");
+	}
+	public Machine (String name, int code){
+		this.name = name;
+		this.code = code;
+		System.out.println("third constructor running :)");
+		
+	}
+	
+}
+
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Machine mac = new Machine();
+		
+		Machine mac2 = new Machine("Jim Smith");
+		Machine mac3 = new Machine ("jim", 7);
+	}
+
+}

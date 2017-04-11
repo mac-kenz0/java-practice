@@ -1,0 +1,32 @@
+package tutorial15;
+
+class Person {
+	String name;
+	int age;
+	
+	void speakk(){
+		System.out.println("My name is " + name);
+	}
+	
+	int calculateYearsToRetiremement() {
+		int yearsLeft = 65 - age;
+		return yearsLeft;
+	}
+}
+
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person person1 = new Person();
+		person1.name = "Joe";
+		person1.age = 25;
+		
+		person1.speakk();
+		int years = person1.calculateYearsToRetiremement();
+		
+		
+	}
+
+}

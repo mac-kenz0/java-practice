@@ -1,0 +1,36 @@
+package tutorial24;
+/*
+ * Tutorial 24
+ * String Builder
+ * Ineffience to just += strings bc
+ * Strings are immutable
+ * therefore you're taking up a lot of space in memory & taking a lot
+ * of time
+ * Instead use String Builder Object
+ * 
+ * 
+ * */
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder("");
+		
+		sb.append("my name");
+		sb.append(" ");
+		sb.append("bob");
+		
+		System.out.println(sb.toString());
+		
+		
+		StringBuilder s = new StringBuilder();
+		s.append("my name").append(" is Jim");
+		
+		System.out.println(s);
+		
+		
+		
+		//System.out.println(s.toString());
+	}
+
+}

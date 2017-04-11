@@ -1,0 +1,19 @@
+package tutorial27;
+
+import ocean.FIsh;
+
+/*
+ * Tutorial on Packages within Java
+ * Two purposes
+ * organize code
+ * prevent code naming conflicts
+ * */
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FIsh fish = new FIsh();
+		
+	}
+
+}

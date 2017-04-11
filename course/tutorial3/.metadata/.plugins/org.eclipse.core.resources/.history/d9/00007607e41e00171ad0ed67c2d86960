@@ -1,0 +1,20 @@
+package tutorial22;
+
+class Machine{
+	/* the name of your constructor has to be the same as your class*/
+	public Machine() {
+		System.out.println("Constructor");
+	}
+	
+}
+
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Machine mac = new Machine();
+		
+	}
+
+}

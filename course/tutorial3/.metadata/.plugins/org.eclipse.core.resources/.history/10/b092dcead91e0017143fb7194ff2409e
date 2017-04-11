@@ -1,0 +1,20 @@
+package tutorial15;
+
+class Person {
+	String name;
+	int age;
+	
+	void speakk(){
+		System.out.println("My name is " + name);
+	}
+}
+
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

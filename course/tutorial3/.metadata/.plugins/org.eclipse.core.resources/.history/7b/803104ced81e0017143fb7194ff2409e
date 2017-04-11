@@ -1,0 +1,30 @@
+class Person {
+	// Classes can contain
+	// 1. Data
+	// 2. SubRoutines
+	String name;
+	int age;
+	
+	// methods
+	static void speak (){
+		System.out.println("Hello");
+	}
+}
+public class TutorialTwelve {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("yolo");
+		Person person1 = new Person();
+		person1.name = "Joe";
+		person1.age = 24;
+		
+		Person person2 = new Person();
+		person2.name = "Yolo";
+		person2.age = 14;
+		
+		person1.speak();
+		Person.speak();
+	}
+
+}

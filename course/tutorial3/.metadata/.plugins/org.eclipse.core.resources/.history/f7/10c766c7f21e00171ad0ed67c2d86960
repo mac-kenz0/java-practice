@@ -1,0 +1,15 @@
+package tutorial28;
+
+
+public class Machine {
+	private String name;
+	
+public Machine(String name) {
+		super();
+		this.name = name;
+	}
+
+public void start(){
+	System.out.println("start");
+}
+}

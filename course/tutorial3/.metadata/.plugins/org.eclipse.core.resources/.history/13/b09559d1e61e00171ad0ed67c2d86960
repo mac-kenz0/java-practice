@@ -1,0 +1,33 @@
+package tutorial23;
+class Thing {
+	public String name;
+	public static String description;
+	
+	public void showName() {
+		System.out.println(description + ": " + name);
+		
+	}
+	public static void showInfo() {
+		System.out.println(description);
+	}
+}
+
+
+public class App {
+	public static void main(String[] args){
+		Thing thing1 = new Thing();
+		Thing thing2 = new Thing();
+		
+
+		Thing.description = "I am a thing";
+		
+		Thing.showInfo();
+		
+		thing1.name = "bob";
+		thing2.name = "sure";
+		
+		thing1.showName();
+		thing2.showName();
+
+	}
+}

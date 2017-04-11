@@ -1,0 +1,10 @@
+package tutorial26;
+
+public class Car extends Machine {
+	public void start(){
+		System.out.println("car start");
+	}
+	public void wipeWindshield (){
+		System.out.println("wiping windshield");
+	}
+}
