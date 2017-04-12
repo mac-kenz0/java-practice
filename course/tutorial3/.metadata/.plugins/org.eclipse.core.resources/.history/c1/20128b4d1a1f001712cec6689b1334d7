@@ -1,0 +1,10 @@
+package tutorial37;
+
+public class App {
+
+	public static void main(String[] args) {
+		String fileName = "../../textFile.txt";
+		file textFile = new File(fileName);
+	}
+
+}

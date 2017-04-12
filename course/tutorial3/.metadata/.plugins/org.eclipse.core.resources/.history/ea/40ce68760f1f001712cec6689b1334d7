@@ -1,0 +1,22 @@
+package tutorial31;
+/*
+ * Encapsulation Tutorial
+ * Encapsulate the inner workings of a class so that
+ * others outside the class cannot access inner workings
+ * of the class
+ * 
+ */
+
+class Plant {
+	private String name;
+	
+}
+
+
+public class App {
+
+	public App() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

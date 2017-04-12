@@ -1,0 +1,10 @@
+package tutorial29;
+
+public class Oak extends Plant{
+	public Oak(){
+		this.size = "large";
+	}
+	// can't do this , variable type is private to Plant class
+	//type = tree;
+	
+}

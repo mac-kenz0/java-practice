@@ -249,3 +249,13 @@ Caused by: org.eclipse.core.internal.resources.ResourceException: A resource exi
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
 !SUBENTRY 1 org.eclipse.core.resources 4 275 2017-04-11 15:54:54.045
 !MESSAGE A resource exists with a different case: '/tutorial27/src/ocean'.
+!SESSION 2017-04-11 16:32:38.884 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/kenzo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/kenzo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-11 16:32:45.054
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

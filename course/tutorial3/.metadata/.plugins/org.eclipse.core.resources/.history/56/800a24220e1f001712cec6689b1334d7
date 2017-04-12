@@ -1,0 +1,8 @@
+package tutorial30;
+
+public class Tree extends Plant {
+	
+
+	
+
+}

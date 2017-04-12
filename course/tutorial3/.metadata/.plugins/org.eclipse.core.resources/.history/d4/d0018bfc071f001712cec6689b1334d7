@@ -1,0 +1,17 @@
+package tutorial29;
+/*Private Public Protected Tutorial
+ * 
+ * Public - 
+ * 
+ * 
+ * */
+public class Apo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Plant plant = new Plant();
+		System.out.println(plant.name);
+		System.out.println(plant.ID);
+	}
+
+}

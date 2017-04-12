@@ -1,0 +1,9 @@
+package tutorial30;
+
+public class Tree extends Plant {
+
+	public Tree() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

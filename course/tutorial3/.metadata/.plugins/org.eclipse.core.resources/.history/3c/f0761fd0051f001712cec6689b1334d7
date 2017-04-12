@@ -1,0 +1,9 @@
+package tutorial29;
+
+public class Plant {
+	// bad practice
+public String name;
+public Plant(){
+	this.name = "freddy";
+}
+}
