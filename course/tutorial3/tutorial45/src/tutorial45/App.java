@@ -1,0 +1,79 @@
+package tutorial45;
+
+class Person {
+	private int id;
+	private String name;
+
+	public Person(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + id;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Person other = (Person) obj;
+		if (id != other.id)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+	
+	
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Person p1 = new Person (5, "bob");
+		Person p2 = new Person (5, "bob");
+		
+		// false because they are two different objects
+		System.out.println(p1 == p2);
+		
+		//.equals compares semantic meaning
+		System.out.println(p1.equals(p2));
+		
+		Integer number1 = 6;
+		Integer number2 = 6;
+		
+		// both integers are pointing to same object
+		System.out.println(number1 == number2);
+		
+		String text1 = "hello";
+		String text2 = "hello134143".substring(0, 5);
+		System.out.println(text2);
+		// can't rely on ==
+		System.out.println(text1 == text2);
+		// need .equals
+		System.out.println(text1.equals(text2));
+		/* equals equals only checks to see if these
+		 * references are literally pointing at same object
+		 * or not 
+		 */
+	}
+
+}

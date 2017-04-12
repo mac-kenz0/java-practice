@@ -1,0 +1,19 @@
+package tutorial46;
+
+public class Robot {
+	private int id;
+
+	private class Brain{
+		public void think(){
+			System.out.println("robot " + id + " is thinking");
+		}
+	}
+	public Robot(int id) {
+		this.id = id;
+	}
+	public void start(){
+		System.out.println("starting robot " + id);
+	}
+	Brain brain = new Brain();
+	brain.think();
+}

@@ -1,0 +1,5 @@
+package tutorial46;
+
+public class Robot {
+	private int id;
+}
